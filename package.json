@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "jest",
+    "test": "jest --collect-coverage",
     "lint": "eslint . --ignore-path .gitignore --cache",
     "lint:fix": "npm run lint -- --fix"
   },
